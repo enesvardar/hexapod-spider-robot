@@ -1,0 +1,82 @@
+../Drivers/CMSIS/Include/core_cm4.h:1939:34:void __NVIC_SystemReset()	1
+C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/bits/std_abs.h:71:3:constexpr double std::abs(double)	1
+C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/bits/std_abs.h:75:3:constexpr float std::abs(float)	1
+C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/cmath:144:3:constexpr float std::atan2(float, float)	1
+C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/cmath:165:3:constexpr float std::ceil(float)	1
+C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/cmath:184:3:constexpr float std::cos(float)	1
+C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/cmath:425:3:constexpr float std::sin(float)	1
+C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/cmath:463:3:constexpr float std::sqrt(float)	1
+../Core/Inc/myMath.h:18:2:MyVector3::MyVector3()	1
+../Core/Inc/myMath.h:25:2:MyVector3::MyVector3(float, float, float)	1
+../Core/Inc/myMath.h:32:12:MyVector3 MyVector3::operator+(const MyVector3&)	1
+../Core/Inc/myMath.h:43:12:MyVector3 MyVector3::operator-(const MyVector3&)	1
+../Core/Inc/myMath.h:68:2:MyVector4::MyVector4(float, float, float, float)	1
+../Core/Inc/myMath.h:82:5:MyQuaternion::MyQuaternion()	1
+../Core/Inc/myMath.h:90:10:void MyQuaternion::EulertoQuaternion(MyVector3)	1
+../Core/Inc/myMath.h:120:5:MyMatrix4x4::MyMatrix4x4()	1
+../Core/Inc/myMath.h:143:10:void MyMatrix4x4::Rotate(MyQuaternion)	1
+../Core/Inc/myMath.h:161:10:void MyMatrix4x4::Inverse()	1
+../Core/Inc/myMath.h:209:15:MyVector4 MyMatrix4x4::operator*(MyVector4)	1
+../Core/Inc/parameters.h:52:2:Parameters::Parameters()	1
+C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\arm-none-eabi\include\c++\11.3.1\arm-none-eabi\thumb\v7e-m+fp\hard\bits\gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	1
+../Core/Inc/pwm.h:20:2:Pwm::Pwm()	1
+../Core/Inc/pwm.h:25:2:Pwm::Pwm(TIM_HandleTypeDef, uint32_t, float)	1
+../Core/Inc/pwm.h:33:7:void Pwm::SetAngle(float)	4
+../Core/Inc/leg.h:48:2:Leg::Leg(std::string, float)	10
+../Core/Inc/leg.h:165:7:void Leg::ForwardKinematicsForLegBase()	1
+../Core/Inc/leg.h:179:7:void Leg::InverseKinematicsForLegBase()	3
+../Core/Inc/leg.h:269:12:MyVector4 Leg::GetAlphaPosForOrigin()	1
+../Core/Inc/leg.h:291:7:void Leg::UpdateLegBaseFORG(float)	1
+../Core/Inc/leg.h:312:7:void Leg::MoveLegBasePoint(float, float, float)	3
+../Core/Inc/leg.h:336:7:void Leg::MoveDirLegBasePoint(Direction)	7
+../Core/Inc/leg.h:365:7:void Leg::Update()	15
+../Core/Inc/leg.h:23:7:Leg::~Leg()	1
+../Core/Inc/hexapod.h:76:2:Hexapod::Hexapod()	1
+../Core/Inc/hexapod.h:96:7:void Hexapod::MoveHexapodBodyDir(float, Direction)	7
+../Core/Inc/hexapod.h:131:7:void Hexapod::MoveHexapodBodyXYZ(float, float, float)	1
+../Core/Inc/hexapod.h:137:7:void Hexapod::RotateHexapodBodyXYZ(float, float, float)	1
+../Core/Inc/hexapod.h:144:7:void Hexapod::SetLocalPositionHexapodBody(MyVector3)	1
+../Core/Inc/hexapod.h:150:7:void Hexapod::SetLocalEulerAnglesHexapodBody(MyVector3)	1
+../Core/Inc/hexapod.h:155:7:void Hexapod::MoveLegGroup(int, int, Direction)	4
+../Core/Inc/hexapod.h:179:7:bool Hexapod::WalkingSpecialStep(Direction, int, int)	3
+../Core/Inc/hexapod.h:209:7:void Hexapod::RotateLegGroup(int, float)	3
+../Core/Inc/hexapod.h:230:7:bool Hexapod::RotatingSpecialStep(int, float, float, int)	4
+../Core/Inc/hexapod.h:269:7:void Hexapod::Walking(Direction, bool)	13
+../Core/Inc/hexapod.h:305:7:void Hexapod::Rotating(bool)	13
+../Core/Inc/hexapod.h:341:7:void Hexapod::Dancing(bool)	10
+../Core/Inc/hexapod.h:395:7:void Hexapod::Balancing(bool, double, double)	7
+../Core/Inc/hexapod.h:427:7:void Hexapod::Update()	3
+../Core/Inc/msg.h:62:9:uint8_t HexCharToByte(char)	17
+../Core/Inc/msg.h:147:9:uint8_t HexChar2ToByte(char, char)	1
+../Core/Inc/msg.h:153:11:Message_t Message_Parser(char*)	3
+../Core/Inc/mpu6050.h:89:9:uint8_t MPU6050_Init(I2C_HandleTypeDef*)	2
+../Core/Inc/mpu6050.h:125:6:void MPU6050_Read_Accel(I2C_HandleTypeDef*, MPU6050_t*)	1
+../Core/Inc/mpu6050.h:147:6:void MPU6050_Read_Gyro(I2C_HandleTypeDef*, MPU6050_t*)	1
+../Core/Inc/mpu6050.h:169:6:void MPU6050_Read_Temp(I2C_HandleTypeDef*, MPU6050_t*)	1
+../Core/Inc/mpu6050.h:182:8:double Kalman_getAngle(Kalman_t*, double, double, double)	1
+../Core/Inc/mpu6050.h:212:11:MPU6050_t MPU6050_Read_All(I2C_HandleTypeDef*)	9
+../Core/Src/main.cpp:95:6:void HAL_UART_RxCpltCallback(UART_HandleTypeDef*)	21
+../Core/Inc/hexapod.h:41:7:Hexapod::~Hexapod()	3
+../Core/Inc/leg.h:23:7:Leg& Leg::operator=(Leg&&)	1
+../Core/Inc/hexapod.h:41:7:Hexapod& Hexapod::operator=(Hexapod&&)	2
+../Core/Src/main.cpp:205:5:int main()	7
+../Core/Src/main.cpp:321:6:void SystemClock_Config()	3
+../Core/Src/main.cpp:365:13:void MX_I2C2_Init()	2
+../Core/Src/main.cpp:393:13:void MX_TIM1_Init()	7
+../Core/Src/main.cpp:466:13:void MX_TIM2_Init()	6
+../Core/Src/main.cpp:523:13:void MX_TIM3_Init()	6
+../Core/Src/main.cpp:580:13:void MX_TIM4_Init()	7
+../Core/Src/main.cpp:641:13:void MX_TIM8_Init()	7
+../Core/Src/main.cpp:714:13:void MX_TIM12_Init()	4
+../Core/Src/main.cpp:761:13:void MX_TIM9_Init()	3
+../Core/Src/main.cpp:804:13:void MX_UART4_Init()	2
+../Core/Src/main.cpp:837:13:void MX_GPIO_Init()	1
+../Core/Src/main.cpp:879:6:void Error_Handler()	1
+C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/bits/basic_string.h:6248:5:bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	1
+C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/cmath:290:5:constexpr typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::fmod(_Tp, _Up) [with _Tp = float; _Up = int]	1
+C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/bits/stl_algobase.h:254:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = float]	2
+C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/cmath:475:5:constexpr typename __gnu_cxx::__enable_if<std::__is_integer<_Tp>::__value, double>::__type std::sqrt(_Tp) [with _Tp = int]	1
+C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.0.202305231506\tools\bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/include/c++/11.3.1/cmath:155:5:constexpr typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::atan2(_Tp, _Up) [with _Tp = int; _Up = short int]	1
+../Core/Src/main.cpp:888:1:void __static_initialization_and_destruction_0(int, int)	5
+../Core/Src/main.cpp:888:1:cpp)	1
+../Core/Src/main.cpp:888:1:cpp)	1

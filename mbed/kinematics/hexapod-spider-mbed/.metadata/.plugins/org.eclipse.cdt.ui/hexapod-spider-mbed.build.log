@@ -1,0 +1,10 @@
+22:49:08 **** Incremental Build of configuration Debug for project hexapod-spider-mbed ****
+make -j12 all 
+arm-none-eabi-size   hexapod-spider-mbed.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 189424	    760	   7748	 197932	  3052c	hexapod-spider-mbed.elf
+Finished building: default.size.stdout
+ 
+
+22:49:08 Build Finished. 0 errors, 0 warnings. (took 252ms)
+

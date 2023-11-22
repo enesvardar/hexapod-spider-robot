@@ -1,0 +1,27 @@
+22:49:00 **** Incremental Build of configuration Debug for project hexapod-spider-mbed ****
+make -j12 all 
+arm-none-eabi-g++ "../Core/Src/main.cpp" -mcpu=cortex-m4 -std=gnu++14 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.cpp:219:13: warning: 'void MX_UART4_Init()' defined but not used [-Wunused-function]
+  219 | static void MX_UART4_Init(void)
+      |             ^~~~~~~~~~~~~
+arm-none-eabi-g++ -o "hexapod-spider-mbed.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\enesv\OneDrive\Belgeler\GitHub\hexapod-spider-robot\mbed\kinematics\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hexapod-spider-mbed.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: hexapod-spider-mbed.elf
+ 
+arm-none-eabi-size   hexapod-spider-mbed.elf 
+arm-none-eabi-objdump -h -S  hexapod-spider-mbed.elf  > "hexapod-spider-mbed.list"
+arm-none-eabi-objcopy  -O binary  hexapod-spider-mbed.elf  "hexapod-spider-mbed.bin"
+   text	   data	    bss	    dec	    hex	filename
+ 189424	    760	   7748	 197932	  3052c	hexapod-spider-mbed.elf
+Finished building: default.size.stdout
+ 
+Finished building: hexapod-spider-mbed.bin
+ 
+Finished building: hexapod-spider-mbed.list
+ 
+22:49:08 **** Incremental Build of configuration Debug for project hexapod-spider-mbed ****
+make -j12 all 
+arm-none-eabi-size   hexapod-spider-mbed.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 189424	    760	   7748	 197932	  3052c	hexapod-spider-mbed.elf
+Finished building: default.size.stdout
+ 

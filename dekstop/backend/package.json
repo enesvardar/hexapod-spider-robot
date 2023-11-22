@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mqtt": "^4.3.7",
+    "mqtt-router": "^0.5.0",
+    "mqtt-simple-router": "^1.2.0",
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.5.1"
+  }
+}

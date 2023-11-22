@@ -1,6 +1,6 @@
-# Hexapod Robot Wep
+# Hexapod Robot 
 
-<img src="https://github.com/enesvardar/hexapod-spider-wep/blob/main/video-gif/screen-recording.gif"/>
+<img src="[https://github.com/enesvardar/hexapod-spider-wep/blob/main/video-gif/screen-recording.gif](https://github.com/enesvardar/hexapod-spider-robot/blob/main/ezgif.com-video-to-gif.gif)"/>
 
 # Announcement
 

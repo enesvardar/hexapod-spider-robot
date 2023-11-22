@@ -2,6 +2,10 @@
 
 <img src="https://github.com/enesvardar/hexapod-spider-robot/blob/main/ezgif.com-video-to-gif.gif"/>
 
+<img src="https://github.com/enesvardar/hexapod-spider-robot/blob/main/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-09-23%2014asd3503.png"/>
+
+
+
 # Announcement
 
 In this project, an eighteen-jointed hexapod robot was simulated in React environment. You can use this app to simulate the walks of a hexapod robot and more.This app is not affiliated with any external math library. 
